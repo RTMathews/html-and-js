@@ -16,4 +16,7 @@ function getPlayerChoice()
         choiceUpper = choice.toUpperCase();
     }
     while (choiceUpper != 'ROCK' || choiceUpper != 'PAPER' || choiceUpper != "SCISSORS");
+    
+    return choiceUpper;
+    console.log(choiceUpper);
 }
