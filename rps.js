@@ -21,7 +21,7 @@ function getPlayerChoice()
     }
 }
 
-function game(playerSelection, computerSelection)
+function playRound(playerSelection, computerSelection)
 {
-    
+
 }
