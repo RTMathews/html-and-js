@@ -32,4 +32,9 @@ function playRound(playerSelection, computerSelection)
         return 'You Win!';
         console.log('You Win!');
     }
+    else if (playerSelection == 'ROCK' && computerSelection == 'SCISSORS')
+    {
+        return 'You Win!';
+        console.log('You Win!');
+    }
 }
