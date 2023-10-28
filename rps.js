@@ -52,4 +52,9 @@ function playRound(playerSelection, computerSelection)
         return 'You Lose!';
         console.log('You Lose!');
     }
+    else if (computerSelection == 'SCISSORS' && playerSelection == 'PAPER')
+    {
+        return 'You Lose!';
+        console.log('You Lose!');
+    }
 }
