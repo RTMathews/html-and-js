@@ -48,4 +48,9 @@ function playRound(playerSelection, computerSelection)
         return 'You Lose!';
         console.log('You Lose!');
     }
+    else if (getComputerChoice() == 'SCISSORS' && getPlayerChoice() == 'PAPER')
+    {
+        return 'You Lose!';
+        console.log('You Lose!');
+    }
 }
