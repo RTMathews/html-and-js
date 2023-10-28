@@ -1,6 +1,6 @@
 function getComputerChoice()
 {
-    const options = ['Rock', 'Paper', 'Scissors'];
+    const options = ['ROCK', 'PAPER', 'SCISSORS'];
     const choice = options[Math.floor(Math.random() * options.length)];
 
     return choice;
@@ -14,5 +14,9 @@ function getPlayerChoice()
     {
         return choice;
         console.log(choice);
+    }
+    else (choice != 'ROCK' || choice != 'PAPER' || choice != 'SCISSORS')
+    {
+        getPlayerChoice();
     }
 }
