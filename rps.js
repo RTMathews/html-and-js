@@ -9,6 +9,9 @@ function getComputerChoice()
 
 function getPlayerChoice()
 {
-    let choice = prompt("Enter Rock, Paper, or Scissors.")
-    let choiceUpper = choice.toUpperCase();
+    while (choiceUpper != 'ROCK' || choiceUpper != 'PAPER' || choiceUpper != 'SCISSORS')
+    {
+        let choice = prompt("Enter Rock, Paper, or Scissors.")
+        let choiceUpper = choice.toUpperCase();
+    }
 }
