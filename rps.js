@@ -28,4 +28,14 @@ function playRound(playerSelection, computerSelection)
         return 'Tie!';
         console.log('Tie!');
     }
+    else if (getComputerChoice() == 'ROCK' && getPlayerChoice() == 'PAPER')
+    {
+        return 'You Win!';
+        console.log('You Win!');
+    }
+    else if (getComputerChoice() == 'PAPER' && getPlayerChoice() == 'SCISSORS')
+    {
+        return 'You Win!';
+        console.log('You Win!');
+    }
 }
