@@ -23,5 +23,9 @@ function getPlayerChoice()
 
 function playRound(playerSelection, computerSelection)
 {
-
+    if (getComputerChoice() == getPlayerChoice())
+    {
+        return 'Tie!';
+        console.log('Tie!');
+    }
 }
