@@ -20,3 +20,8 @@ function getPlayerChoice()
         getPlayerChoice();
     }
 }
+
+function game(playerSelection, computerSelection)
+{
+    
+}
