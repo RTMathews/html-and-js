@@ -19,4 +19,6 @@ function getPlayerChoice()
         choice = prompt('Try again. Rock, Paper, or Scissors');
         choiceUpper = choice.toUpperCase();
     }
+    return choiceUpper;
+    console.log(choiceUpper);
 }
