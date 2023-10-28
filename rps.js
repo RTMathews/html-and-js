@@ -37,4 +37,9 @@ function playRound(playerSelection, computerSelection)
         return 'You Win!';
         console.log('You Win!');
     }
+    else if (playerSelection == 'SCISSORS' && computerSelection == 'PAPER')
+    {
+        return 'You Win!';
+        console.log('You Win!');
+    }
 }
