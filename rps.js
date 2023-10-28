@@ -43,4 +43,9 @@ function playRound(playerSelection, computerSelection)
         return 'You Win!';
         console.log('You Win!');
     }
+    else if (getComputerChoice() == 'PAPER' && getPlayerChoice() == 'ROCK')
+    {
+        return 'You Lose!';
+        console.log('You Lose!');
+    }
 }
