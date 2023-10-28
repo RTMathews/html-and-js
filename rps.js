@@ -9,5 +9,5 @@ function getComputerChoice()
 
 function getPlayerChoice()
 {
-    
+    choice = prompt("Enter Rock, Paper, or Scissors.")
 }
