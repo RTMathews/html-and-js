@@ -21,40 +21,4 @@ function playRound(playerSelection, computerSelection)
 {
     const playerSelection = getPlayerChoice();
     const computerSelection = getComputerChoice();
-
-    if (playerSelection == computerSelection)
-    {
-        return 'Tie!';
-        console.log('Tie!');
-    }
-    else if (playerSelection == 'PAPER' && computerSelection == 'ROCK')
-    {
-        return 'You Win!';
-        console.log('You Win!');
-    }
-    else if (playerSelection == 'ROCK' && computerSelection == 'SCISSORS')
-    {
-        return 'You Win!';
-        console.log('You Win!');
-    }
-    else if (playerSelection == 'SCISSORS' && computerSelection == 'PAPER')
-    {
-        return 'You Win!';
-        console.log('You Win!');
-    }
-    else if (computerSelection == 'PAPER' && playerSelection == 'ROCK')
-    {
-        return 'You Lose!';
-        console.log('You Lose!');
-    }
-    else if (computerSelection == 'ROCK' && playerSelection == 'SCISSORS')
-    {
-        return 'You Lose!';
-        console.log('You Lose!');
-    }
-    else if (computerSelection == 'SCISSORS' && playerSelection == 'PAPER')
-    {
-        return 'You Lose!';
-        console.log('You Lose!');
-    }
 }
