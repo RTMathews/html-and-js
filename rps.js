@@ -15,47 +15,9 @@ function getPlayerChoice()
         return choice;
         console.log(choice);
     }
-    else (choice != 'ROCK' || choice != 'PAPER' || choice != 'SCISSORS')
-    {
-        getPlayerChoice();
-    }
 }
 
 function playRound(playerSelection, computerSelection)
 {
-    if (getComputerChoice() == getPlayerChoice())
-    {
-        return 'Tie!';
-        console.log('Tie!');
-    }
-    else if (getComputerChoice() == 'ROCK' && getPlayerChoice() == 'PAPER')
-    {
-        return 'You Win!';
-        console.log('You Win!');
-    }
-    else if (getComputerChoice() == 'PAPER' && getPlayerChoice() == 'SCISSORS')
-    {
-        return 'You Win!';
-        console.log('You Win!');
-    }
-    else if (getComputerChoice() == 'SCISSORS' && getPlayerChoice() == 'ROCK')
-    {
-        return 'You Win!';
-        console.log('You Win!');
-    }
-    else if (getComputerChoice() == 'PAPER' && getPlayerChoice() == 'ROCK')
-    {
-        return 'You Lose!';
-        console.log('You Lose!');
-    }
-    else if (getComputerChoice() == 'SCISSORS' && getPlayerChoice() == 'PAPER')
-    {
-        return 'You Lose!';
-        console.log('You Lose!');
-    }
-    else if (getComputerChoice() == 'ROCK' && getPlayerChoice() == 'SCISSORS')
-    {
-        return 'You Lose!';
-        console.log('You Lose!');
-    }
+    
 }
