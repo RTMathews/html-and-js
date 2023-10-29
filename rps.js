@@ -58,4 +58,9 @@ function game()
 {
     let computerScore = 0;
     let playerScore = 0;
+
+    for (let i = 0; i <= 5; i++)
+    {
+        
+    }
 }
