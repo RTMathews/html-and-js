@@ -72,13 +72,14 @@ function game()
         else if (outcome.includes('Lose'))
         {
             computerScore++;
-            console.log('Computer: ', computerScore);
-            console.log('Player: ', playerScore);
+            console.log('Computer: ' + computerScore);
+            console.log('Player: ' + playerScore);
         }
         else
         {
-            console.log('Computer: ', computerScore);
-            console.log('Player: ', playerScore);
+            console.log('Computer: ' + computerScore);
+            console.log('Player: ' + playerScore);
         }
     }
+    console.log('Final Score: Player ' + playerScore + ' Computer: ' + computerScore);
 }
