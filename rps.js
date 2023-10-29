@@ -61,6 +61,6 @@ function game()
 
     for (let i = 0; i <= 5; i++)
     {
-        
+        const outcome = playRound(getPlayerChoice(), getComputerChoice());
     }
 }
