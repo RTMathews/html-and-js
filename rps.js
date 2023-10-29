@@ -95,3 +95,5 @@ function game()
         console.log('Game Tied!');
     }
 }
+
+game();
