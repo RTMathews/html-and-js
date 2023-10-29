@@ -56,5 +56,6 @@ console.log(playRound(playerSelection, computerSelection));
 
 function game()
 {
-    
+    let computerScore = 0;
+    let playerScore = 0;
 }
