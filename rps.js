@@ -24,4 +24,9 @@ function playRound(playerSelection, computerSelection)
         return 'Tie!';
         console.log('Tie!');
     }
+    else if (playerSelection === 'ROCK' && computerSelection === 'SCISSORS')
+    {
+        return 'You Win!';
+        console.log('You Win!');
+    }
 }
