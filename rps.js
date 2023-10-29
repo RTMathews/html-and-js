@@ -66,6 +66,7 @@ function game()
         if (outcome.includes('Win'))
         {
             playerScore++;
+            console.log('Computer: ', computerScore);
         }
     }
 }
