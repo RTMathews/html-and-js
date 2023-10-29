@@ -82,4 +82,8 @@ function game()
         }
     }
     console.log('Final Score: Player ' + playerScore + ' Computer: ' + computerScore);
+    if (playerScore > computerScore)
+    {
+        console.log('You win the game!');
+    }
 }
