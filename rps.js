@@ -75,5 +75,9 @@ function game()
             console.log('Computer: ', computerScore);
             console.log('Player: ', playerScore);
         }
+        else
+        {
+            console.log('Computer: ', computerScore);
+        }
     }
 }
