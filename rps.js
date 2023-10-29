@@ -72,6 +72,7 @@ function game()
         else if (outcome.includes('Lose'))
         {
             computerScore++;
+            console.log('Computer: ', computerScore);
         }
     }
 }
