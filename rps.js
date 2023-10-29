@@ -86,4 +86,8 @@ function game()
     {
         console.log('You win the game!');
     }
+    else if (computerScore > playerScore)
+    {
+        console.log('You Lost the game!');
+    }
 }
