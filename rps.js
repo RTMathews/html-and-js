@@ -43,4 +43,8 @@ function playRound(playerSelection, computerSelection)
     {
         return 'You Lose! Scissors beats Paper.';
     }
+    else if (computerSelection === 'PAPER' && playerSelection === 'ROCK')
+    {
+        return 'You Lose! Paper beats Rock.';
+    }
 }
