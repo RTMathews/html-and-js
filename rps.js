@@ -67,6 +67,7 @@ function game()
         {
             playerScore++;
             console.log('Computer: ', computerScore);
+            console.log('Player: ', playerScore);
         }
     }
 }
