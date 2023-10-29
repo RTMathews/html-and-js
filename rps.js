@@ -63,5 +63,9 @@ function game()
     {
         const outcome = playRound(getPlayerChoice(), getComputerChoice());
         console.log(outcome);
+        if (outcome.includes('Win'))
+        {
+            playerScore++;
+        }
     }
 }
