@@ -90,4 +90,8 @@ function game()
     {
         console.log('You Lost the game!');
     }
+    else
+    {
+        console.log('Game Tied!');
+    }
 }
